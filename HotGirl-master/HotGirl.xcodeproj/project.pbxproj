@@ -12,6 +12,7 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		970F318A1E0891C300CD05A2 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970F31891E0891C300CD05A2 /* Media.xcassets */; };
 		9900904314D642A10004B544 /* cover_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99008F6214D642A10004B544 /* cover_1@2x.jpg */; };
 		9900904414D642A10004B544 /* cover_2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99008F6314D642A10004B544 /* cover_2@2x.jpg */; };
 		9900904514D642A10004B544 /* cover_3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99008F6414D642A10004B544 /* cover_3@2x.jpg */; };
@@ -243,17 +244,9 @@
 		999E48F314A83FD200F42089 /* icon_girlinfo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 999E48F214A83FD200F42089 /* icon_girlinfo@2x.png */; };
 		999E48F614A8405300F42089 /* tb_about.png in Resources */ = {isa = PBXBuildFile; fileRef = 999E48F414A8405300F42089 /* tb_about.png */; };
 		999E48F714A8405300F42089 /* tb_about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 999E48F514A8405300F42089 /* tb_about@2x.png */; };
-		99C1A9D014DA313900794E90 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C1A9C914DA313800794E90 /* Default@2x.png */; };
-		99C1A9D114DA313900794E90 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C1A9CA14DA313800794E90 /* Icon-72.png */; };
-		99C1A9D214DA313900794E90 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C1A9CB14DA313800794E90 /* Icon-Small-50.png */; };
-		99C1A9D314DA313900794E90 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C1A9CC14DA313800794E90 /* Icon-Small-50@2x.png */; };
-		99C1A9D414DA313900794E90 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C1A9CD14DA313800794E90 /* Icon-Small.png */; };
-		99C1A9D514DA313900794E90 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C1A9CE14DA313900794E90 /* Icon-Small@2x.png */; };
 		99C1A9D614DA313900794E90 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C1A9CF14DA313900794E90 /* iTunesArtwork.png */; };
 		99CCCAE512845FA300DE59A5 /* AboutHotGirlController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CCCAE412845FA300DE59A5 /* AboutHotGirlController.m */; };
-		B406B20D1270024200A6889D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B406B2081270024200A6889D /* Icon@2x.png */; };
 		B406B23F1270091D00A6889D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B406B23E1270091D00A6889D /* MessageUI.framework */; };
-		B406CA88127046A900A6889D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B406CA87127046A900A6889D /* Default.png */; };
 		B406CBA21271382A00A6889D /* icon_girlinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = B406CB9F1271382A00A6889D /* icon_girlinfo.png */; };
 		B4071DF11293C0D40094EAE1 /* MainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B4071DF01293C0D40094EAE1 /* MainViewController.mm */; };
 		B451712C127EB64B00D2006E /* 1_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B451654E127EB64A00D2006E /* 1_01.jpg */; };
@@ -3058,7 +3051,6 @@
 		B4517C28127EB64C00D2006E /* cover_99.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B451712B127EB64B00D2006E /* cover_99.jpg */; };
 		B4778C42126C2D8A00939FC0 /* FotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4778C41126C2D8A00939FC0 /* FotoViewController.m */; };
 		B4778CAF126C32D600939FC0 /* FotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4778CAE126C32D600939FC0 /* FotoScrollView.m */; };
-		B4778E5B126C534900939FC0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4778E5A126C534900939FC0 /* Icon.png */; };
 		B47792B5126D83DF00939FC0 /* HotGirlHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B47792B2126D83DF00939FC0 /* HotGirlHelper.m */; };
 		B47792B6126D83DF00939FC0 /* SQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B47792B4126D83DF00939FC0 /* SQLiteHelper.m */; };
 		B47792B8126D845100939FC0 /* hotgirl.dat in Resources */ = {isa = PBXBuildFile; fileRef = B47792B7126D845100939FC0 /* hotgirl.dat */; };
@@ -3081,6 +3073,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* HotGirl_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotGirl_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		970F31891E0891C300CD05A2 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		99008F6214D642A10004B544 /* cover_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cover_1@2x.jpg"; sourceTree = "<group>"; };
 		99008F6314D642A10004B544 /* cover_2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cover_2@2x.jpg"; sourceTree = "<group>"; };
 		99008F6414D642A10004B544 /* cover_3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cover_3@2x.jpg"; sourceTree = "<group>"; };
@@ -3314,20 +3307,12 @@
 		999E48F214A83FD200F42089 /* icon_girlinfo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_girlinfo@2x.png"; sourceTree = "<group>"; };
 		999E48F414A8405300F42089 /* tb_about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_about.png; sourceTree = "<group>"; };
 		999E48F514A8405300F42089 /* tb_about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tb_about@2x.png"; sourceTree = "<group>"; };
-		99C1A9C914DA313800794E90 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		99C1A9CA14DA313800794E90 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		99C1A9CB14DA313800794E90 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
-		99C1A9CC14DA313800794E90 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
-		99C1A9CD14DA313800794E90 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
-		99C1A9CE14DA313900794E90 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		99C1A9CF14DA313900794E90 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 		99C1A9D914DA325000794E90 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99C1A9DA14DA325600794E90 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		99CCCAE312845FA300DE59A5 /* AboutHotGirlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutHotGirlController.h; sourceTree = "<group>"; };
 		99CCCAE412845FA300DE59A5 /* AboutHotGirlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutHotGirlController.m; sourceTree = "<group>"; };
-		B406B2081270024200A6889D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		B406B23E1270091D00A6889D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		B406CA87127046A900A6889D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B406CB9F1271382A00A6889D /* icon_girlinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_girlinfo.png; sourceTree = "<group>"; };
 		B4071DF01293C0D40094EAE1 /* MainViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainViewController.mm; sourceTree = "<group>"; };
 		B451654E127EB64A00D2006E /* 1_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_01.jpg; sourceTree = "<group>"; };
@@ -6134,7 +6119,6 @@
 		B4778C41126C2D8A00939FC0 /* FotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FotoViewController.m; sourceTree = "<group>"; };
 		B4778CAD126C32D600939FC0 /* FotoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FotoScrollView.h; sourceTree = "<group>"; };
 		B4778CAE126C32D600939FC0 /* FotoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FotoScrollView.m; sourceTree = "<group>"; };
-		B4778E5A126C534900939FC0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		B47792B1126D83DF00939FC0 /* HotGirlHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotGirlHelper.h; path = Classes/HotGirlHelper.h; sourceTree = "<group>"; };
 		B47792B2126D83DF00939FC0 /* HotGirlHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotGirlHelper.m; path = Classes/HotGirlHelper.m; sourceTree = "<group>"; };
 		B47792B3126D83DF00939FC0 /* SQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLiteHelper.h; path = Classes/SQLiteHelper.h; sourceTree = "<group>"; };
@@ -6196,6 +6180,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				970F31891E0891C300CD05A2 /* Media.xcassets */,
 				B4EF3E621266D1F500B06BEB /* album */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				B4778E57126C531900939FC0 /* images */,
@@ -10853,15 +10838,6 @@
 		B4778E57126C531900939FC0 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				B406CA87127046A900A6889D /* Default.png */,
-				99C1A9C914DA313800794E90 /* Default@2x.png */,
-				99C1A9CA14DA313800794E90 /* Icon-72.png */,
-				99C1A9CB14DA313800794E90 /* Icon-Small-50.png */,
-				99C1A9CC14DA313800794E90 /* Icon-Small-50@2x.png */,
-				99C1A9CD14DA313800794E90 /* Icon-Small.png */,
-				99C1A9CE14DA313900794E90 /* Icon-Small@2x.png */,
-				B4778E5A126C534900939FC0 /* Icon.png */,
-				B406B2081270024200A6889D /* Icon@2x.png */,
 				B406CB9F1271382A00A6889D /* icon_girlinfo.png */,
 				999E48F214A83FD200F42089 /* icon_girlinfo@2x.png */,
 				99C1A9CF14DA313900794E90 /* iTunesArtwork.png */,
@@ -11190,10 +11166,7 @@
 				B482616D1266CBA20035DE5E /* MainWindow.xib in Resources */,
 				B4EF3E241266CE5F00B06BEB /* InfoPlist.strings in Resources */,
 				B4EF3E521266CF1900B06BEB /* Localizable.strings in Resources */,
-				B4778E5B126C534900939FC0 /* Icon.png in Resources */,
 				B47792B8126D845100939FC0 /* hotgirl.dat in Resources */,
-				B406B20D1270024200A6889D /* Icon@2x.png in Resources */,
-				B406CA88127046A900A6889D /* Default.png in Resources */,
 				B406CBA21271382A00A6889D /* icon_girlinfo.png in Resources */,
 				B451712C127EB64B00D2006E /* 1_01.jpg in Resources */,
 				B451712D127EB64B00D2006E /* 1_02.jpg in Resources */,
@@ -12328,6 +12301,7 @@
 				B451759E127EB64B00D2006E /* 101_16.jpg in Resources */,
 				B451759F127EB64B00D2006E /* 101_17.jpg in Resources */,
 				B45175A0127EB64B00D2006E /* 101_18.jpg in Resources */,
+				970F318A1E0891C300CD05A2 /* Media.xcassets in Resources */,
 				B45175A1127EB64B00D2006E /* 101_19.jpg in Resources */,
 				B45175A2127EB64B00D2006E /* 101_20.jpg in Resources */,
 				B45175A3127EB64B00D2006E /* 101_21.jpg in Resources */,
@@ -14224,12 +14198,6 @@
 				9900912114D642A10004B544 /* cover_223@2x.jpg in Resources */,
 				9900912214D642A10004B544 /* cover_224@2x.jpg in Resources */,
 				9900912314D642A10004B544 /* cover_225@2x.jpg in Resources */,
-				99C1A9D014DA313900794E90 /* Default@2x.png in Resources */,
-				99C1A9D114DA313900794E90 /* Icon-72.png in Resources */,
-				99C1A9D214DA313900794E90 /* Icon-Small-50.png in Resources */,
-				99C1A9D314DA313900794E90 /* Icon-Small-50@2x.png in Resources */,
-				99C1A9D414DA313900794E90 /* Icon-Small.png in Resources */,
-				99C1A9D514DA313900794E90 /* Icon-Small@2x.png in Resources */,
 				99C1A9D614DA313900794E90 /* iTunesArtwork.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -14286,6 +14254,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -14304,6 +14274,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HotGirl_Prefix.pch;
@@ -14339,6 +14311,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HotGirl_Prefix.pch;
